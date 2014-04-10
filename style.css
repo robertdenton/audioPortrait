@@ -8,6 +8,15 @@ body,html{
 p{
 	text-align: left;
 }
+audio{
+	width:100%;
+	margin-top:-5px;
+	border-radius: 0px;
+	background-color:black;
+}
+a{
+	text-decoration: none;
+}
 #wrapper{
 	width:100%;
 	max-width: 1200px;
@@ -22,7 +31,7 @@ p{
 }
 #title{
 	font-family: Helvetica;
-	font-size: 200%;
+	font-size: 300%;
 	font-weight: 100;
 	background-color: black;
 	color:white;
@@ -49,21 +58,21 @@ p{
 	margin-top:0;
 }
 .characterBox{
-	width:100%;
+	width:60%;
+	margin:auto;
 	margin-top:7px;
 }
 .bigIMG{
-	margin:auto;
-	width:60%;
+	width:100%;
 }
 .description{
-	width:50%;
+	width:90%;
 	margin:auto;
 	margin-top:7px;
 }
 
 @media screen and (max-width:799px){
-	.bigIMG{
+	.characterBox{
 		width:90%;
 	}
 	#intro{
