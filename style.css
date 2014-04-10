@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+body,html{
+	font-family: Arial, "sans serif";
+	text-align: center;
+	margin:1px;
+}
+p{
+	text-align: left;
+}
+#wrapper{
+	width:100%;
+	max-width: 1200px;
+	margin:auto;
+}
+#cuiHeader{
+	text-align: left;
+}
+#cuiHeader img{
+	width:100%;
+	max-width: 700px;
+}
+#title{
+	font-family: Helvetica;
+	font-size: 200%;
+	font-weight: 100;
+	background-color: black;
+	color:white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#thumbs{
+	margin-top:7px;
+	text-align: center;
+	margin:0;
+}
+.thumbIMG{
+	width:75px;
+	height:75px;
+}
+#intro{
+	width:60%;
+	padding:2%;
+	margin: auto;
+	margin-top:7px;
+	border:1px solid black;
+}
+#intro p{
+	margin-top:0;
+}
+.characterBox{
+	width:100%;
+	margin-top:7px;
+}
+.bigIMG{
+	margin:auto;
+	width:60%;
+}
+.description{
+	width:50%;
+	margin:auto;
+	margin-top:7px;
+}
+
+@media screen and (max-width:799px){
+	.bigIMG{
+		width:90%;
+	}
+	#intro{
+		width:95%;
+	}
+}
+
+
