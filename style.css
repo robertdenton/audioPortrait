@@ -5,9 +5,6 @@ body,html{
 	text-align: center;
 	margin:1px;
 }
-p{
-	text-align: left;
-}
 audio{
 	width:100%;
 	margin-top:-5px;
@@ -21,6 +18,7 @@ a{
 	width:100%;
 	max-width: 1200px;
 	margin:auto;
+	text-align: left;
 }
 #cuiHeader{
 	text-align: left;
@@ -56,27 +54,61 @@ a{
 }
 #intro p{
 	margin-top:0;
+	text-align:left;
 }
 .characterBox{
-	width:60%;
+	width:100%;
 	margin:auto;
-	margin-top:7px;
+	margin-top:50px;
+	overflow: hidden;
+}
+.left{
+	float:left;
+	text-align: right;
+}
+.right{
+	float: right;
+}
+.media{
+	width:45%;
 }
 .bigIMG{
 	width:100%;
 }
 .description{
-	width:90%;
-	margin:auto;
+	width:40%;
 	margin-top:7px;
 }
+.description p{
+	vertical-align: middle;
+}
+.name{
+	font-weight: 900;
+	font-size: 150%;
+}
+.meta{
+	font-size: 120%;
+}
+.plea{
+	font-weight:600;
+	font-size: 95%;
+}
 
-@media screen and (max-width:799px){
+@media screen and (max-width:899px){
 	.characterBox{
 		width:90%;
 	}
 	#intro{
 		width:95%;
+	}
+	.media{
+		width:100%;
+	}
+	.left{
+		text-align: left;
+	}
+	.description{
+		width:100%;
 	}
 }
 
