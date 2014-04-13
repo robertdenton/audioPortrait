@@ -66,14 +66,30 @@ a{
 	float:left;
 	text-align: right;
 }
+.left img{
+	float:right;
+}
 .right{
 	float: right;
+}
+.right img{
+	float:left;
 }
 .media{
 	width:45%;
 }
 .bigIMG{
 	width:100%;
+}
+.play{
+	display:block;
+	width:100px;
+	height:100px;
+}
+.pause{
+	display:none;
+	width:100px;
+	height:100px;
 }
 .description{
 	width:40%;
@@ -106,6 +122,9 @@ a{
 	}
 	.left{
 		text-align: left;
+	}
+	.left img{
+		float:left;
 	}
 	.description{
 		width:100%;
