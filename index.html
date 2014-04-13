@@ -39,7 +39,7 @@
     }
 
     
-    function playAudio(audioID){
+    /*function playAudio(audioID){
     	if (document.getElementById(audioID).paused == true){
     		document.getElementById(audioID).play();
     		$('.play').css('display', 'none');
@@ -48,6 +48,18 @@
     		document.getElementById(audioID).pause();
     		$('.pause').css('display', 'none');
     		$('.play').css('display','block');
+    	}
+    }*/
+
+    function playAudio(audioID){
+    	var clip = $("#" + audioID);
+    	console.log(clip);
+    	console.log(clip.paused);
+    	if (clip.paused){
+    		clip.play();
+    	}
+    	else{
+    		clip.pause();
     	}
     }
 
