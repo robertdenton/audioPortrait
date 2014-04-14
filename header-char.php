@@ -41,7 +41,7 @@ audio{
 a{
 	text-decoration: none;
 }
-#wrapper{
+#wrapIt{
 	width:100%;
 	max-width: 1200px;
 	margin:auto;
@@ -93,14 +93,30 @@ a{
 	float:left;
 	text-align: right;
 }
+.left img{
+	float:right;
+}
 .right{
 	float: right;
+}
+.right img{
+	float:left;
 }
 .media{
 	width:45%;
 }
 .bigIMG{
 	width:100%;
+}
+.play{
+	display:block;
+	width:100px;
+	height:100px;
+}
+.pause{
+	display:none;
+	width:100px;
+	height:100px;
 }
 .description{
 	width:40%;
@@ -121,7 +137,13 @@ a{
 	font-size: 95%;
 }
 
-@media screen and (max-width:799px){
+@media only screen and (max-width: 767px) and (min-width: 480px){
+	#wrapIt{
+		margin-left:-30px;
+	}
+}
+
+@media screen and (max-width:899px){
 	.characterBox{
 		width:90%;
 	}
@@ -133,6 +155,9 @@ a{
 	}
 	.left{
 		text-align: left;
+	}
+	.left img{
+		float:left;
 	}
 	.description{
 		width:100%;
