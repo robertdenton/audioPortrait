@@ -86,7 +86,7 @@ a{
 .characterBox{
 	width:100%;
 	margin:auto;
-	margin-top:50px;
+	margin-top:10px;
 	overflow: hidden;
 }
 .left{
